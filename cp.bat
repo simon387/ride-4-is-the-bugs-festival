@@ -18,9 +18,6 @@ xcopy /y /s /e "%srcDir%" "%toDir%"
 
 echo Copy Done.
 
-:: Generate a random string
-random_string=$(openssl rand -hex 16)
-
 git add .
 git commit -m "Random commit: %random_string%"
 git push
