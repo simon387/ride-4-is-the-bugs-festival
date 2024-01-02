@@ -28,7 +28,7 @@ xcopy /y /s /e "%srcDir%" "%toDir%"
 echo Copy Done.
 
 git add .
-git commit -m "Random commit: !random_string!"
+git commit -m "Random commit: %random_string%"
 git push
 
 echo Commit Done.
