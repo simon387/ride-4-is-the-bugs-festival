@@ -4,10 +4,14 @@ setlocal
 :: Variables
 set "srcDir=C:\Users\ThinkOpen\AppData\Local\Ride4"
 set "toDir=C:\dev\ride-4-is-the-bugs-festival\bu\Ride4"
+:: Generate a random string for the commit message
+setlocal enabledelayedexpansion
+set "chars=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 set "random_string="
+
 for /L %%i in (1,1,8) do (
     set /a "rand=!random! %% 62"
-    for %%j in (!rand!) do set "random_string=!random_string!!chars:~%%j,1!"
+    set "random_string=!random_string!!chars:~%rand%,1!"
 )
 
 :: Check if the destination folder already exists, otherwise create it
@@ -19,7 +23,7 @@ xcopy /y /s /e "%srcDir%" "%toDir%"
 echo Copy Done.
 
 git add .
-git commit -m "Random commit: %random_string%"
+git commit -m "Random commit: !random_string!"
 git push
 
 echo Commit Done.
