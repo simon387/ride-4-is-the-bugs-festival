@@ -22,7 +22,7 @@ echo Copy Done.
 random_string=$(openssl rand -hex 16)
 
 git add .
-git commit -m "!random_string!"
+git commit -m "%random_string%"
 git push
 
 echo Commit Done.
