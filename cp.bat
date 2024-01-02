@@ -4,7 +4,8 @@ setlocal
 :: Variables
 set "srcDir=C:\Users\ThinkOpen\AppData\Local\Ride4"
 set "toDir=C:\dev\ride-4-is-the-bugs-festival\bu\Ride4"
-set "random_string=openssl rand -hex 16"
+for /f %%i in ('openssl rand -hex 16') do set "random_string=%%i"
+
 
 
 :: Check if the destination folder already exists, otherwise create it
