@@ -8,7 +8,6 @@ set "toDir=C:\dev\ride-4-is-the-bugs-festival\bu\Ride4"
 setlocal enabledelayedexpansion
 set "chars=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 set "random_string="
-
 for /L %%i in (1,1,8) do (
     set /a "rand=!random! %% 62"
     set "random_string=!random_string!!chars:~%rand%,1!"
