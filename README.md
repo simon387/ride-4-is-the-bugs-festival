@@ -7,3 +7,7 @@
 + km counter on bikes
 + net code hack
 
+### maybe controller
+
++ rear brake on
++ no turn left
