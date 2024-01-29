@@ -6,6 +6,7 @@
 + final IA gap (in ms)
 + km counter on bikes
 + net code hack
++ unright penalty on crash
 
 ### maybe controller
 
