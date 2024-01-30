@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>6CBA25B648EEA57AA2F03CA1215E2E63</ExecutionGuid>
+<CrashGUID>UE4CC-Windows-D8EA4A1D41CE596063BCC68388A029E9_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Crash</CrashType>
+<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00115088</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>229504</ProcessId>
+<SecondsSinceStart>372</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE4-ride4</GameName>
+<ExecutableName>ride4-Win64-Shipping</ExecutableName>
+<BuildConfiguration>Shipping</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.25Plus-CL-0-Win64-Shipping</Symbols>
+<PlatformName>WindowsNoEditor</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.25.0-0+++UE4+Release-4.25Plus</EngineVersion>
+<CommandLine> ride4</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>it-IT</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.25Plus-CL-0</BuildVersion>
+<IsUE4Release>true</IsUE4Release>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Program Files (x86)/Steam/steamapps/common/RIDE 4/ride4/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files (x86)/Steam/steamapps/common/RIDE 4/</RootDir>
+<MachineId>D9A92B824E56906B63C7DBA8F8271A5B</MachineId>
+<LoginId>d9a92b824e56906b63c7dba8f8271a5b</LoginId>
+<EpicAccountId>520994d6aafa4fc6a2961e6691c49585</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName>RaceGameStateBP_C</GameStateName>
+<Misc.NumberOfCores>6</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>Intel(R) UHD Graphics</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (Release 2009)</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>16913203200</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+ride4-Win64-Shipping  0x00000000e1970000 + 1d72c75 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a7f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</PCallStack>
+<PCallStackHash>06F8A4249CEA71BEF2113AC7FB0AB682BB3A4064</PCallStackHash>
+<Threads><Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d545 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad1f32 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad9a0a 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d5d110 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d5790f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d711b0 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d5cc6d 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d7e599 
+ride4-Win64-Shipping  0x00000000e1970000 + 350c8b4 
+ride4-Win64-Shipping  0x00000000e1970000 + 31fc64d 
+ride4-Win64-Shipping  0x00000000e1970000 + 310db78 
+ride4-Win64-Shipping  0x00000000e1970000 + 649a75  
+ride4-Win64-Shipping  0x00000000e1970000 + 64ffcc  
+ride4-Win64-Shipping  0x00000000e1970000 + 65003a  
+ride4-Win64-Shipping  0x00000000e1970000 + 659d4f  
+ride4-Win64-Shipping  0x00000000e1970000 + 3fac322 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>226940</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>224528</ThreadID>
+<ThreadName>TaskGraphThreadNP 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>227592</ThreadID>
+<ThreadName>TaskGraphThreadNP 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c0a900 
+ride4-Win64-Shipping  0x00000000e1970000 + 3fb8f3e 
+VCRUNTIME140          0x0000000001230000 + f0e0    
+ntdll                 0x000000002ef90000 + a441f   
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>13280</ThreadID>
+<ThreadName>TaskGraphThreadNP 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>227000</ThreadID>
+<ThreadName>TaskGraphThreadNP 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>225704</ThreadID>
+<ThreadName>TaskGraphThreadNP 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>230240</ThreadID>
+<ThreadName>TaskGraphThreadNP 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>229308</ThreadID>
+<ThreadName>TaskGraphThreadNP 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>230460</ThreadID>
+<ThreadName>TaskGraphThreadNP 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>225224</ThreadID>
+<ThreadName>TaskGraphThreadNP 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>225396</ThreadID>
+<ThreadName>TaskGraphThreadNP 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad2029 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>210424</ThreadID>
+<ThreadName>TaskGraphThreadHP 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad2029 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>225900</ThreadID>
+<ThreadName>TaskGraphThreadHP 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad2029 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14548</ThreadID>
+<ThreadName>TaskGraphThreadHP 12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad2029 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>229140</ThreadID>
+<ThreadName>TaskGraphThreadHP 13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad2029 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>229724</ThreadID>
+<ThreadName>TaskGraphThreadHP 14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad2029 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>230408</ThreadID>
+<ThreadName>TaskGraphThreadHP 15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad2029 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>231288</ThreadID>
+<ThreadName>TaskGraphThreadHP 16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad2029 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>228804</ThreadID>
+<ThreadName>TaskGraphThreadHP 17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad2029 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>206500</ThreadID>
+<ThreadName>TaskGraphThreadHP 18</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad2029 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>229004</ThreadID>
+<ThreadName>TaskGraphThreadHP 19</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>209020</ThreadID>
+<ThreadName>TaskGraphThreadBP 20</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12636</ThreadID>
+<ThreadName>TaskGraphThreadBP 21</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>226340</ThreadID>
+<ThreadName>TaskGraphThreadBP 22</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>231312</ThreadID>
+<ThreadName>TaskGraphThreadBP 23</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>230592</ThreadID>
+<ThreadName>TaskGraphThreadBP 24</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>224716</ThreadID>
+<ThreadName>TaskGraphThreadBP 25</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>230688</ThreadID>
+<ThreadName>TaskGraphThreadBP 26</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>230508</ThreadID>
+<ThreadName>TaskGraphThreadBP 27</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>225932</ThreadID>
+<ThreadName>TaskGraphThreadBP 28</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d63a23 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d656d7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad208c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad495c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>209432</ThreadID>
+<ThreadName>TaskGraphThreadBP 29</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>229032</ThreadID>
+<ThreadName>PoolThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>225216</ThreadID>
+<ThreadName>PoolThread 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>229572</ThreadID>
+<ThreadName>PoolThread 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>229644</ThreadID>
+<ThreadName>PoolThread 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>210292</ThreadID>
+<ThreadName>PoolThread 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>226980</ThreadID>
+<ThreadName>PoolThread 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>225992</ThreadID>
+<ThreadName>PoolThread 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>227736</ThreadID>
+<ThreadName>PoolThread 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>201920</ThreadID>
+<ThreadName>PoolThread 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>231224</ThreadID>
+<ThreadName>PoolThread 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>227864</ThreadID>
+<ThreadName>PoolThread 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>227684</ThreadID>
+<ThreadName>PoolThread 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f9f4   
+ntdll                 0x000000002ef90000 + 551b3   
+KERNELBASE            0x000000002c490000 + 4477d   
+ride4-Win64-Shipping  0x00000000e1970000 + 2764d3e 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>221280</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f9f4   
+ntdll                 0x000000002ef90000 + 551b3   
+KERNELBASE            0x000000002c490000 + 4477d   
+ride4-Win64-Shipping  0x00000000e1970000 + 38bd136 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>225472</ThreadID>
+<ThreadName>LibwebsocketsThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + b81da6  
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>226196</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 2e3289c 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>208672</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>203408</ThreadID>
+<ThreadName>PoolThread 12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>226568</ThreadID>
+<ThreadName>PoolThread 13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>231340</ThreadID>
+<ThreadName>PoolThread 14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14356</ThreadID>
+<ThreadName>PoolThread 15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad1f32 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad9a0a 
+ride4-Win64-Shipping  0x00000000e1970000 + 659b4e  
+ride4-Win64-Shipping  0x00000000e1970000 + 28d35dd 
+ride4-Win64-Shipping  0x00000000e1970000 + 28d424b 
+ride4-Win64-Shipping  0x00000000e1970000 + 28d419f 
+ride4-Win64-Shipping  0x00000000e1970000 + 28d1d19 
+ride4-Win64-Shipping  0x00000000e1970000 + 2373fc7 
+ride4-Win64-Shipping  0x00000000e1970000 + 203de3f 
+ride4-Win64-Shipping  0x00000000e1970000 + 2374710 
+ride4-Win64-Shipping  0x00000000e1970000 + 236b6f9 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad1f53 
+ride4-Win64-Shipping  0x00000000e1970000 + 2912232 
+ride4-Win64-Shipping  0x00000000e1970000 + 2912583 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>230724</ThreadID>
+<ThreadName>RenderThread 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f9f4   
+ntdll                 0x000000002ef90000 + 551b3   
+KERNELBASE            0x000000002c490000 + 4477d   
+ride4-Win64-Shipping  0x00000000e1970000 + 29126a7 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>230356</ThreadID>
+<ThreadName>RTHeartBeat 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>217704</ThreadID>
+<ThreadName>PoolThread 22</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1d582fe 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c66f45 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c634f2 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>201672</ThreadID>
+<ThreadName>FAsyncLoadingThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>231120</ThreadID>
+<ThreadName>PoolThread 16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>208252</ThreadID>
+<ThreadName>PoolThread 17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>229488</ThreadID>
+<ThreadName>PoolThread 18</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>227928</ThreadID>
+<ThreadName>PoolThread 19</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>226748</ThreadID>
+<ThreadName>PoolThread 20</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>231280</ThreadID>
+<ThreadName>PoolThread 21</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f9f4   
+ntdll                 0x000000002ef90000 + 551b3   
+KERNELBASE            0x000000002c490000 + 4477d   
+ride4-Win64-Shipping  0x00000000e1970000 + 352a4f1 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>231208</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 2d2b9f5 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>225096</ThreadID>
+<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1ad1f32 
+ride4-Win64-Shipping  0x00000000e1970000 + 2f9bf10 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>228380</ThreadID>
+<ThreadName>AudioThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f3f4   
+KERNELBASE            0x000000002c490000 + 33bfe   
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1d568 
+ride4-Win64-Shipping  0x00000000e1970000 + 1b2529f 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15120</ThreadID>
+<ThreadName>PoolThread 23</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x000000002ef90000 + 9f9f4   
+ntdll                 0x000000002ef90000 + 551b3   
+KERNELBASE            0x000000002c490000 + 4477d   
+ride4-Win64-Shipping  0x00000000e1970000 + adeae8  
+ride4-Win64-Shipping  0x00000000e1970000 + 1c1ba57 
+ride4-Win64-Shipping  0x00000000e1970000 + 1c16561 
+KERNEL32              0x000000002d8d0000 + 1257d   
+ntdll                 0x000000002ef90000 + 5aa58   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>228884</ThreadID>
+<ThreadName>FIgnitionAsyncBufferedArchive_Replay</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>true</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+<RHI.IsGPUOverclocked>false</RHI.IsGPUOverclocked>
+<RHI.RHIName>D3D11</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce GTX 1650 Ti</RHI.AdapterName>
+<RHI.UserDriverVersion>Unknown</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>Unknown</RHI.InternalDriverVersion>
+<RHI.DriverDate>Unknown</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
