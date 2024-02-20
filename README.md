@@ -7,6 +7,7 @@
 + km counter on bikes
 + net code hack
 + unright penalty on crash
++ race terminated with 3 lap remaining, from 1 to 12 positions
 
 ### maybe controller
 
